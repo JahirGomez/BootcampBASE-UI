@@ -34,7 +34,6 @@ export const Currencies = () => {
         setCurrenOrderOption(e.target.value);
         setcurrency(orderCurrency(currencies, e.target.value));
     };
-
 	
 	const handleSearchC = (SearchWord : string) => {
 		if(SearchWord === ""){
